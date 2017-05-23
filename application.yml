@@ -7,6 +7,8 @@ server:
 spring:
   application:
     name: store
+  profiles:
+    active: dev
   data:
     mongodb:
       host: localhost
